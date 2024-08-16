@@ -80,7 +80,8 @@ python3 xss4ever.py -i payloads.txt -t base64 hex --count 10 --pdf output.pdf
 
 Verbose Mode with Output Saved to a File
 
-bash
+bash![Screenshot from 2024-08-15 21-54-28](https://github.com/user-attachments/assets/398a9ee0-3a8c-4fe6-ad00-a1b98613511c)
+
 
 python3 xss4ever.py -p "<iframe src='javascript:alert(1)'>" -t unicode -o result.txt --verbose
 
@@ -101,6 +102,11 @@ Multi-Threaded Payload Generation from File
 bash
 
 python3 xss4ever.py -i input.txt -t unicode octal combine --count 50 --random 10 -o output.txt
+
+![Screenshot from 2024-08-15 21-57-16](https://github.com/user-attachments/assets/d7caa791-c788-4ebb-8841-1552a0d3fc93)
+![Screenshot from 2024-08-15 21-55-38](https://github.com/user-attachments/assets/aa45a1f6-0545-42aa-ae33-e1482d606e89)
+![Screenshot from 2024-08-15 21-54-28](https://github.com/user-attachments/assets/26c9dc05-73ea-4712-af59-2f5f3871c5c9)
+
 
 
 ## Contributing
